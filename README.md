@@ -1,0 +1,2 @@
+# OpenWrt_configuration_backup
+OpenWrt 自动下载设置备份，并清理30天前下载的备份
