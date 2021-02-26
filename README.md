@@ -44,7 +44,7 @@ password : ""
 
 ### 运行
 
-`sh task.sh`
+`sudo sh task.sh`
 
 
 
