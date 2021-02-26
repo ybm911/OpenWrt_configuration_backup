@@ -20,7 +20,10 @@ OpenWrt 自动下载设置备份（不是系统备份），并清理30天前下�
 
 ```
 requests
+re
 sys
+bs4
+pyyaml
 ```
 
 `sudo python3 -m pip install -r requirements.txt`
@@ -39,9 +42,9 @@ username : ""
 password : ""
 ```
 
+### 运行
 
-
-`python3 run.py -c config.yaml`
+`sh task.sh`
 
 
 

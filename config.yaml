@@ -1,7 +1,7 @@
 ---
 # OpenWrt 的 ip (ipv4)，例子：192.168.3.1:80
-ip : "192.168.50.1"
+ip : ""
 # 登陆的用户名
-username : "root"
+username : ""
 # 登陆的密码
-password : "5XqqkuN4vb9W2YM"
+password : ""
