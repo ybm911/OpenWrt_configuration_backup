@@ -37,6 +37,5 @@ re_backup_name = re.compile(r'backup-OpenWrt-(.*).tar.gz')
 # print backup_name
 backup_name = re_backup_name.search(backup_name).group(0)
 print(backup_name)
-print(1)
 with open(backup_name, "wb") as mid:
     mid.write(backup_binary.content)
